@@ -38,7 +38,7 @@ Recommended for high schoolers (9th-12th) with some basic knowledge on Python.
 - This exercise is to prove that when you have a morning routine, it is vital it remains constant and turns into a pattern everyday.
 
 - Display the class with a real life application of a loop (something that keeps running):
-  - International Space Station that continuously orbits the Earth **([GIF](https://github.com/JaiTheGuy/loopsPython/blob/main/loopsPythonVisuals/International_Space_Station_pillars%20(1).gif)).**
+  - International Space Station that continuously orbits the Earth **([GIF](https://github.com/JaiTheGuy/GMPythonLoops/blob/main/loopsPythonVisuals/ISSgif.gif)).**
       - Discuss with the class that the coordinates are always moving therefore the ISS has a job to orbit continuously.
       - [JSON file that tracks the longitude/latitude coordinates of the ISS](http://api.open-notify.org/iss-now.json?callback=CALLBACK)
       - [NASA website of spotting the ISS geographically](https://spotthestation.nasa.gov/)
@@ -50,7 +50,7 @@ Recommended for high schoolers (9th-12th) with some basic knowledge on Python.
 ## Examples of Loops in Coding:
 - Explain the two pictures and the pseudo code that accompany with each one and how loops are typically integrated in coding applications such as shopping websites, phone applications and video games:
   
-[IKEA Website Example](https://github.com/JaiTheGuy/loopsPython/blob/main/loopsPythonVisuals/ikea.png)
+[IKEA Website Example](https://github.com/JaiTheGuy/GMPythonLoops/blob/main/loopsPythonVisuals/ikeaChairs.png)
 - For the following IKEA example, we see that there are 3 chairs being displayed.
 - With the help of loops, they can iterate through any type of search result and display the following format.
 ```
@@ -64,7 +64,7 @@ for every chair in IKEA website:
 	stars out of 5/# of ratings
 ```
 
-[Flappy Bird Example:](https://github.com/JaiTheGuy/loopsPython/blob/main/loopsPythonVisuals/aim_bird.gif)
+[Flappy Bird Example:](https://github.com/JaiTheGuy/GMPythonLoops/blob/main/loopsPythonVisuals/flappyBird.gif)
 
 > [!IMPORTANT]
 > Before you show off the pseudocode of the Flappy Bird GIF, ask the class what specific actions are being looped throughout the game
@@ -93,7 +93,7 @@ while playing flappy bird:
 
 ## For Loops:
 - Start to explain that there are 2 ways of looping in Python, the first one we'll be learning are **for loops**.
-- [A GIF of Bart Simpson writing "HAVE A GREAT SUMMER, EVERYONE" on the board over and over again](https://github.com/JaiTheGuy/loopsPython/blob/main/loopsPythonVisuals/giphy%20(1).gif)
+- [A GIF of Bart Simpson writing "HAVE A GREAT SUMMER, EVERYONE" on the board over and over again](https://github.com/JaiTheGuy/GMPythonLoops/blob/main/loopsPythonVisuals/bartWriting.gif)
 - Show off a GIF and explain how long it would take to write that specific statement 10 times, 100 times or even a million times.
 - Emphasize it would be would be very difficult to do manually and show off this example to show off this point with the following code:
   
@@ -249,7 +249,7 @@ for k in range(50, 76, 5):
 >
 > OR
 >
-> [Fork this file](https://replit.com/) from the repo and create a pull request with your name and class name.
+> [Fork this file](https://github.com/JaiTheGuy/GMPythonLoops/blob/main/loopsPythonExercises/pythonLoopEx1.py) from the repo and create a pull request with your name and class name.
 > 
 > Let's try getting the class to print out the following numerical patterns using for loops:
 >
@@ -257,7 +257,7 @@ for k in range(50, 76, 5):
 > 
 > The 3 ellipses are filler to save space but the values must be printed out in between as well.
 > 
-> [Solutions will be in the following link]()
+> [Solutions will be in the following link](https://github.com/JaiTheGuy/GMPythonLoops/blob/main/loopsPythonSolutions/pythonLoopSol1.py)
 
 ### Coding Exercise #1:
 ```python
@@ -384,10 +384,10 @@ Even numbers detected!
 >
 > OR
 >
-> [Fork this file](https://replit.com/) from the repo and create a pull request with your name and class name.
+> [Fork this file](https://github.com/JaiTheGuy/GMPythonLoops/blob/main/loopsPythonExercises/pythonLoopEx2.py) from the repo and create a pull request with your name and class name.
 > Follow the comments and use what you learn about while loops to produce the following results:
 >
-> [Solutions will be in the following link]()
+> [Solutions will be in the following link](https://github.com/JaiTheGuy/GMPythonLoops/blob/main/loopsPythonSolutions/pythonLoopSol2.py)
 > 
 ### Coding Exercise #2:
 ```python
@@ -465,10 +465,12 @@ while count < 10:
 >
 > OR
 >
-> [Fork this file](https://replit.com/) from the repo and create a pull request with your name and class name.
+> [Fork this file](https://github.com/JaiTheGuy/GMPythonLoops/blob/main/loopsPythonExercises/pythonFinalEx.py) from the repo and create a pull request with your name and class name.
 > 
 > Explain the instructions carefully and students may work together if they'd like
 > Encourage students to look up Python documentation if needed (ex: GeeksForGeeks, StackOverflow, etc...)
+>
+> > [Solutions will be in the following link](https://github.com/JaiTheGuy/GMPythonLoops/blob/main/loopsPythonSolutions/pythonFinalSol.py)
 
 ### Final Project: Number Guessing Game
 ``` python
