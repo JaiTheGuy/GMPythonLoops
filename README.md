@@ -27,7 +27,9 @@ Recommended for high schoolers (9th-12th) with some basic knowledge on Python.
 > [!NOTE]
 > There will be some questions, examples, and coding exercises throughout the lesson plan. You can optimize the content of these interaction pieces based on your classroom. It's highly recommended to go over the content of the interaction pieces as they help progress to the final project of the lesson.
 > 
-> You will see an (important sign) next to these pieces to encourage student participation during lecture for questions, peer coding and/or independent work
+> When teaching remotely, specifically on Zoom, encourage students to use the 'Rasie Hand' feature and use break out rooms when you start doing coding exercises and the coding final mini-project.
+> 
+> You will see an (important sign) next to these pieces to encourage student participation during lecture for questions, peer coding and/or independent work.
 
 
 ## Introduction To The Concept of Loops:
@@ -48,20 +50,20 @@ Recommended for high schoolers (9th-12th) with some basic knowledge on Python.
 > Examples can include a car running until it needs gas or a candle burning until the wick burns below the wax to help them out.
 
 ## Examples of Loops in Coding:
-- Explain the two pictures and the pseudo code that accompany with each one and how loops are typically integrated in coding applications such as shopping websites, phone applications and video games:
+- Explain the two pictures and the pseudo code that accompany with each (IKEA website & Flappy Bird GIF). This is a way to show off how loops are typically integrated in coding applications such as shopping websites, phone applications and video games:
   
 [IKEA Website Example](https://github.com/JaiTheGuy/GMPythonLoops/blob/main/loopsPythonVisuals/ikeaChairs.png)
 - For the following IKEA example, we see that there are 3 chairs being displayed.
-- With the help of loops, they can iterate through any type of search result and display the following format.
+- With the assistance of loops, they can iterate through any type of search result and display the following format.
 ```
 # pseudocode for IKEA chair picture
 
 for every chair in IKEA website:
-	display pic of chair
+	display picture of chair
 	show name of chair
 	type of furniture
 	display price or price on sale
-	stars out of 5/# of ratings
+	arrange star ratings and number of reviews
 ```
 
 [Flappy Bird Example:](https://github.com/JaiTheGuy/GMPythonLoops/blob/main/loopsPythonVisuals/flappyBird.gif)
@@ -71,23 +73,32 @@ for every chair in IKEA website:
 > If it helps, give them this example and ask them to fill in the blanks
 
 ```
-while playing flappy bird:
-	__________________
+while flappy bird starts:
+	move background of trees/skyline
 	__________________
 	if the bird goes through a pipe:
 		_________________
 	else:
 		_________________
+
+
+for every _________ in gameplay:
+	bird fly/jump action
 ```
 ### Solution:
 ```
-while playing flappy bird:
+while flappy bird starts:
 	move background of trees/skyline
-	show off a new pipe
+	spawn new pipe with random opening
 	if the bird goes through a pipe:
-        	update the score to +1
+		update score to add 1 point
 	else:
-		lose the game and start over
+		lose game and display end screen
+
+
+for every key pressed/tapped in gameplay:
+	bird fly/jump action
+
 ```
 
 
@@ -153,11 +164,17 @@ Italian
 English
 ```
 > [!IMPORTANT]
-> Ask the class the following questions: What type of collection are we using for this loop that will be printed out here? 
+> Ask the class the following questions:
+>
+> What type of collection are we using for this loop that will be printed out here?
+>
+> What temp variable is being used in this example?
+>
+> What will the output be?
 
 ```python
-for i in "hello":
-  print(i)
+for word in "hello":
+  print(word)
 
 #
 #
@@ -175,7 +192,7 @@ for i in "hello":
 
 # Solution:
 
-# The collection we're using is a String that is going to print out individual characters
+# The collection we're using is a String that is going to print out individual character
 
 # Output from the loop:
 h
@@ -302,7 +319,7 @@ for k in range(50, 76, 5):
 ```
 ## While Loops
 - Compared to for loops, while loops serve a similar purpose of repeating an action.
-- The difference is that it will continue as the given condition is true.
+- The difference is that it will continue as long as the given condition is true.
 - The following is the syntax of a while loop written in Python:
 
 ```
@@ -311,7 +328,7 @@ while <condition>:
 ```
 - The condition is typically a boolean expression that expresses if it is either true or false.
 - If the condition isn't true during the while loop, the code is finally finished.
-- NOTE: Anything you can print out with a for loop, you can use a while loop for the solution as well. Something to keep in mind is that you have to choose which loop fits better in what specific scenario.
+- NOTE: Anything you can output with a for loop, you can use a while loop for the solution as well. Something to keep in mind is that you have to choose which loop fits better in what specific scenario.
 
 While Loop Example:
 - Let's say we want to print out the number 1 through 5 using a while loop.
@@ -339,8 +356,7 @@ while count <= 5:
 - The word 'break' can help us with stopping a loop when we finally found an element or satisfies a condition that doesn't require the rest of the loop to be finished.
 
 Example:
-- Let's say we're given a list of numbers
-- Our goal is to iterate the list of numbers but break the loop when we encounter an even number.
+- Let's say we're given a list of numbers and our goal is to iterate the list of numbers but break the loop when we encounter an even number.
 
 > [!IMPORTANT]
 > Ask the class the fill in the blank on how we can detect an even number in Python
@@ -456,6 +472,10 @@ count = 5
 
 while count < 10:
   print(count)
+
+# Since 5 will always be less than 10, the count will continue to print until we stop the code.
+# This is the example of an infinte loop.
+# If you increment the count variable after every iteration, then it'll stop until the condition turns false.
 
 ```
 
