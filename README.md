@@ -531,3 +531,18 @@ while count < 10:
 >
 > When printing out a for loop in a range, what would the 3 numbers in the parenthesis represent?
 
+
+> [!NOTE]
+> These are the ideal time allocations you'd need to time exactly how long each subject & exercises should be in a 60 minute workshop.
+- Introduction To Loops: 5 minutes
+- For Loops: 8 minutes
+- Syntax of For Loops: 5 minutes
+- Coding Exercise #1: 8 minutes
+- While Loops: 6 minutes
+- Breaks In Loops: 3 minutes
+- Coding Exercise #2: 6 minutes
+- Infinte Loop: 3 minutes
+- Final Project: 9 minutes
+- Conclusion: 2 minutes
+
+
